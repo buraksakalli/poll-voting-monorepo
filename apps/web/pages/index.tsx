@@ -1,10 +1,13 @@
-import { Button } from "ui";
+import { Header, Main } from "@/containers/index";
+import type { NextPage } from "next";
 
-export default function Web() {
+const Home: NextPage = () => {
   return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
+    <>
+      <Header />
+      <Main />
+    </>
   );
-}
+};
+
+export default Home;
